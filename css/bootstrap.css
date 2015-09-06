@@ -1120,6 +1120,11 @@ img {
 .img-rounded {
   border-radius: 6px;
 }
+.img-roundede {
+margin-top:7%;
+  border-radius: 6px;
+  margin-right:6%;
+}
 .img-thumbnail {
   display: inline-block;
   max-width: 100%;
@@ -3019,9 +3024,8 @@ fieldset[disabled] .btn {
   opacity: .65;
 }
 .btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc;
+  color: #fcac45;
+  background:none;
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -3029,9 +3033,9 @@ fieldset[disabled] .btn {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #adadad;
+  color: #eee;
+  
+  background:none;
 }
 .btn-default:active,
 .btn-default.active,
@@ -3453,14 +3457,14 @@ tbody.collapse.in {
 .dropdown-menu > li > a:focus {
   color: #262626;
   text-decoration: none;
-  background-color: #f5f5f5;
+  background-color: #fcac45;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
   color: #fff;
   text-decoration: none;
-  background-color: #337ab7;
+  background-color: #fcac45;
   outline: 0;
 }
 .dropdown-menu > .disabled > a,
@@ -4097,7 +4101,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-static-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
     padding-right: 0;
-    padding-left: 0;
+    padding-left: 1;
   }
 }
 .navbar-fixed-top .navbar-collapse,
