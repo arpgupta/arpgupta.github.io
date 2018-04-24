@@ -226,9 +226,9 @@ $(function () {
 		}
 	});
 
-	if($('#home-section').length) {
+	/*if($('#home-section').length) {
 		google.maps.event.addDomListener(window, 'load', initMap);
-	}
+	}*/
 
 });
 
