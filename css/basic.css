@@ -42,12 +42,13 @@ body {
 .page {
 	position: relative;
 	overflow: hidden;
-	padding: 320px 0 0 0;
+	padding: 0px 0 0 0;
 }
 
 @media (max-width: 720px) {
 	.page {
-	padding: 202px 0 0 0;
+/*	padding: 202px 0 0 0;*/
+padding: 0px 0 0 0;
 	}
 
 }
@@ -91,7 +92,7 @@ body {
 
 .wrapper {
 	position: relative;
-	margin: 0 auto;
+	margin: 100px auto;
 	max-width: 1100px;
 }
 
@@ -397,7 +398,7 @@ strong {
 	padding: 1px 5px;
 	display: inline-block;
 	vertical-align: top;
-	background: #9C27B0;
+	background: #2784b0;
 	font-size: 13px;
 	color: #fefefe;
 	border-radius: 2px;
@@ -460,7 +461,7 @@ a.btn,
 	color: #fefefe;
 	font-size: 14px;
 	font-family: 'Roboto', helvetica;
-	background: #9C27B0;
+	background: #2784b0;
 	cursor: pointer;
 	transition: all 0.2s ease 0s;
 	-moz-transition: all 0.2s ease 0s;
@@ -514,7 +515,7 @@ a.btn .circle,
 .preloader .spinner .double-bounce2 {
 	width: 100%;
 	height: 100%;
-	background: #9C27B0;
+	background: #2784b0;
 	opacity: 0.7;
 	position: absolute;
 	top: 0;
