@@ -345,7 +345,7 @@ header .menu-btn span:after {
 }
 
 .st-box .st-bts a {
-	margin: 0 -160px 0 0;
+	margin: 52px -213px 0 0;
 	position: absolute;
 	overflow: hidden;
 	right: 50%;
@@ -394,8 +394,8 @@ header .menu-btn span:after {
 
 .st-box .st-image {
 	margin: 0 auto 15px auto;
-	width: 148px;
-	height: 148px;
+	width: 250px;
+	height: 250px;
 	overflow: hidden;
 	position: relative;
 	background: rgba(0, 0, 0, 0.2);
